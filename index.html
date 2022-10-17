@@ -5,38 +5,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Home | TheJojo</title>
 </head>
 
 <body>
-    <div class="navbar is-dark">
-        <div class="container">
-            <div class="navbar-brand">
-                <a href="/" class="navbar-item title">TheJojo</a>
+    <div id="cards">
+        <div class="card" onclick="window.location.href='https://thejojo.dev/projects/'">
+            <div class="card-content">
+                <div class="card-image">
+                    <i class="fa-solid fa-file-code"></i>
+                </div>
+                <div class="card-info-wrapper">
+                    <div class="card-info">
+                        <i class="fa-solid fa-file-code"></i>
+                        <div class="card-info-title">
+                            <h3>Projects</h3>
+                            <h4>These are some of my Projects.</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="navbar-menu">
-                <div class="navbar-end">
-                    <a href="/" class="navbar-item
-                    is-active">Home</a>
-                    <a href="/projects/" class="navbar-item">Projects</a>
+        </div>
+        <div class="card" onclick="window.location.href='https://github.thejojo.dev/'">
+            <div class="card-content">
+                <div class="card-image">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="card-info-wrapper">
+                    <div class="card-info">
+                        <i class="fa-brands fa-github"></i>
+                        <div class="card-info-title">
+                            <h3>Github</h3>
+                            <h4>Take a look at my Github Account.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="card-image">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="card-info-wrapper">
+                    <div class="card-info">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div class="card-info-title">
+                            <h3>University</h3>
+                            <h4>I'm studying currently studying computer science.</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <section class="section">
-            <h1 class="title">Jooris Hadeler</h1>
-            <p class="subtitle">Computer Science Student at the University of Hamburg</p>
-            <p>Hey, looks like you found my page! This page is mainly for Projects I'm working on. Some of my favorite projects can be found below.</p>
-        </section>
-        <section class="section">
-            <h2 class="title">Projects</h2>
-            <ul> 
-            </ul>
-        </section>
-    </div>
-</body>
+    <script type="text/javascript" src="main.js" />
+    </body>
 
 </html>
