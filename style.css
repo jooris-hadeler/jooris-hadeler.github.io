@@ -14,6 +14,23 @@ body {
     padding: 0px;
 }
 
+#back-btn {
+    position: fixed;
+    top: 5em;
+    left: 5em;
+    cursor: pointer;
+}
+
+#back-btn>i {
+    font-size: 3em;
+    opacity: 0.25;
+    transition: opacity .3s ease;
+}
+
+#back-btn:hover>i {
+    opacity: 0.4;
+}
+
 #cards {
     display: flex;
     flex-wrap: wrap;
