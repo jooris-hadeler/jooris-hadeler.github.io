@@ -180,6 +180,16 @@ i {
 }
 
 @media(max-width: 500px) {
+    #cards {
+        flex-flow: column;
+    }
+    
+    #back-btn {
+        left: 50vw;
+        top: 5vh;
+        transform: translateX(-50%);
+    }
+
     .card {
         height: 180px;
     }
